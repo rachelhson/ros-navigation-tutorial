@@ -13,6 +13,8 @@ Followed :  http://wiki.ros.org/navigation/Tutorials
 ### Localization 
 1. use AMCL using created map, and make sure that the robot stays localized
 2. initialpose for the robot in rviz with reasonable accuracy is important 
+3.`rostopic echo /amcl_pose` command will display any new /amcl_pose, which is the ROS topic represents the location of the robot on the map.
 
 ### dwa_local_planner :
 http://wiki.ros.org/dwa_local_planner
+
